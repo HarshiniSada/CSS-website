@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+body{
+  text-align:center;
+  background-color:whitesmoke;
+  margin:0;
+}
+
+/*Headings and Paragraph*/
+
+.top-heading{
+  font-family:"Tangerine",cursive;
+  font-size:480%;
+  padding-top:25px;
+  color:#876445
+}
+
+h2{
+  color:#876445;
+  font-family: "Garamond",serif;
+  font-weight: "normal";
+  font-size:150%;
+  padding-bottom:10px;
+}
+
+h3{
+  font-family: "Garamond",serif;
+  color:#876445;
+} 
+
+p{
+  font-family:"Garamond",serif;
+  font-size:21px;
+}
+
+h1,p{
+  margin: 25px 0;
+}
+
+
+/*Separaters*/
+
+hr{
+  border-top: dotted #e5e7e7 6px; 
+  border-bottom:none;
+  width:4%;
+  margin: 4% auto 8% auto;
+}
+
+/*Nav Bar*/
+
+.nav{
+  padding-top:5vh;
+  font-size: 10px;
+  background:bisque;
+  text-align:center;  
+}
+
+.navlink{
+  font-family: "Garamond",serif;
+  color:#876445;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navilink:hover{
+  color:#d49d6c;
+}
+
+/*Title page*/
+
+.top-container{
+  background-color:bisque;
+  position:relative;
+  padding-top:100px;
+  padding-bottom:0px;
+}
+
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:120px;
+  width:10%;
+  margin:auto;
+  animation-duration: 3s;
+  animation-name: slidein-top;
+  animation-iteration-count: 1;
+}
+
+.bottom-cloud{
+  position:absolute;
+  left:350px;
+  bottom:400px;
+  margin:auto;
+  width:10%;
+  animation-duration: 3s;
+  animation-name: slidein-bottom;
+  animation-iteration-count: 1;
+}
+
+@keyframes slidein-bottom {
+  from {
+    margin-left: 100%;
+    width: 10%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 10%;
+  }
+}
+
+@keyframes slidein-top {
+  from {
+    margin-right: 100%;
+    width: 10%;
+  }
+
+  to {
+    margin-right: 0%;
+    width: 10%;
+  }
+}
+
+.bottom-mountain{
+  Qa: 100%;
+ max-height: 100%;
+}
+
+
+
+/*Middle-Container*/
+
+.middle-container{
+  margin:20px 0px 0px;
+}
+
+/*About*/
+
+#about{
+  text-align:center;
+  padding:5%;
+}
+
+.about-image{
+  width:11%;
+}
+
+.intro{
+  line-height:25px;
+  color:#6b6464;
+  width:45%;
+  margin:auto;
+}
+
+/*First skill content*/
+
+.skill-row{
+  width:50%;
+  margin: auto;
+  padding: 1% 15%;
+  display: inline-block; 
+}
+.skills-row1{
+  justify-content: center;
+  align-items: center;
+  padding-bottom:10%;
+}
+.skills-girl{
+  width:17%; 
+}
+
+.content{
+  font-size:150%;
+}
+
+.changes{
+  line-height:25px;
+  color:#6b6464;
+  width:62%;
+  margin:auto;
+}
+
+/*Second skill content*/
+
+.girl-lap{
+  width:17%;
+}
+
+.header{
+  border-top: dotted #e5e7e7 6px; 
+  border-bottom:none;
+  width:4%;
+  margin:100px auto;
+}
+
+
+/*Call to action*/
+
+.discription{
+  font-size:250%;
+}
+
+.main-content{
+  line-height:25px;
+  color:#6b6464;
+  width:40%;
+  margin:auto;
+}
+
+.btn{
+  text-decoration: none;
+  color:bisque;
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  text-shadow: 4px 4px 30px bisque;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Arial;
+  color: bisque;
+  font-size: 15px;
+  background: #876445;
+  padding: 11px 13px 11px 13px;
+  border: solid #876445 1px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d49d6c;
+  text-decoration:none;
+  color:whitesmoke;
+  border:none;
+}
+
+.social-icon{
+  margin: 5px;
+}
+
+/*Footer*/
+
+.bottom-container{
+  background-color:bisque; 
+}
+
+.footer-link{
+  text-decoration: none;
+  color:#876445;
+  font-size:17px;
+}
+
+.rights{
+  color:#876445;
+  font-size:13px;
+}
+
+a{
+  margin:5px 20px;
+}
+
+a:hover{
+  color: #d49d6c;
+  
+}
+
+                
+
+
